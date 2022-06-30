@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* 16px 10/16=0.625*/
+  font-size: 50%;
+  font-family: sans-serif;
+}
+main {
+  height: 100vh;
+  background-image: linear-gradient(to right, #afc598, #6c92a7);
+  overflow: hidden;
+}
+.todo__app {
+  width: 40%;
+  height: 80%;
+  border: 1rem solid black;
+  text-align: center;
+  padding: 8rem 2rem;
+  margin: 3rem auto;
+  overflow: hidden;
+}
+h1 {
+  font-size: 6rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+.heading p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.input {
+  box-decoration-break: unset;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  /* height: 100px; */
+}
+.input__field {
+  font-size: 2rem;
+  width: 60%;
+  /* height: 50%; */
+}
+.btn-input {
+  /* font-size: 1.4rem; */
+}
+.todos-list {
+  /* border: 1px solid green; */
+  width: 70%;
+  margin: 0 auto;
+}
+li {
+  font-size: 1.4rem;
+  text-align: start;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+.btn {
+  object-fit: cover;
+  /* width: 15rem; */
+  font-size: 1.8rem;
+  padding: 4px 4px;
+}
+.btn-delete {
+  color: darkred;
+  border: 1px solid darkred;
+}
+.btn-edit {
+  color: darkgreen;
+  border: 1px solid darkgreen;
+}
+/* .btn-edit {
+  width: 10rem;
+  height: 5rem;
+}
+.btn-delete {
+  width: 12rem;
+  height: 5rem;
+} */
